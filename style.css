@@ -1,14 +1,49 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
-    background-color: pink;
+#cabecalho {
+    background-color: #FFDDDD;
     position:fixed;
     top: 0;
 }
 
-#minha_foto{
+article, section {
+    display: inline-block;
+}
+
+#minha_foto {
     width: 150px;
     margin-top: 75px;
+    border-radius: 10%;
+    border: silver solid 3px;
+    padding: 1px;
+}
+
+table, th, td, #qual_eh_melhor, #cabecalho {
+    border:1px solid black;
+}
+
+#qual_eh_melhor {
+      width: 100px;
+}
+
+#linkedin_bruno_faraco {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: 'Macondo', sans-serif;
+}
+
+#aside_escrito {
+    text-decoration: underline;
+}
+
+.lado-esquerdo, .lado-direito {
+    width: 40%;
 }
